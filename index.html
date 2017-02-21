@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector!</title>
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class = "jumbotron">
+			<h1>Crystal Collector!</h1>
+		</div>
+	</header>
+		<div class ="row">
+			<div class = "col-md-8 col-md-offset-2 instructions">You will be given a random number.<br>There are four cyrstals below.  By clicking on the crystal you will add a specific amount of points to your total score.<br><strong>You win if:</strong> you match your total score to random number.<br> <strong>You lose if: </strong> if your total score goes above the random number.<br>The value of each crystal is hidden from you until you click on it.<br>Each time when the game starts, the game will change the values of each crystal.
+			</div>
+		</div>
+		<div class="row">
+			<div class ="col-md-5 col-md-offset-2 panel score"><p id ="randomNumber">100</p></div>
+			<div class ="col-md-2 col-md-offset-1 panel wins">
+				<p id ="wins">Wins: 0</p>
+				<p id ="losses">Losses: 0</p>
+			</div>
+		</div>
+		<div class="row gems">
+			<div class = "col-md-2 col-md-offset-2"><img class = "gem1" src="./assets/images/gem1.png" height="100px"></div>
+			<div class = "col-md-2"><img class = "gem2" src="./assets/images/gem2.png" height="100px"></div>
+			<div class = "col-md-2"><img class = "gem3" src="./assets/images/gem3.png" height="100px"></div>
+			<div class = "col-md-2"><img class = "gem4" src="./assets/images/gem4.png" height="100px"></div>
+		</div>
+		<div class ="row">
+			<div class ="col-md-4 col-md-offset-4 panel"><p id = "userScore">Your Score: </p></div>
+		</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+</html>

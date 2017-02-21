@@ -1,0 +1,45 @@
+body {
+	background: url('../images/background.png') center center fixed;
+	font-family: 'Cinzel', serif;
+}
+
+.jumbotron {
+	height: 125px;
+	text-align: center;
+	font-size: 20px;
+	background: url('../images/navbarbackground.jpg') center center fixed;
+	color: white;
+}
+h1 {
+	font-color: white;
+}
+.instructions {
+	text-align: center;
+	border-style: box;
+}
+
+.gems {
+	padding-left: 40px;
+}
+.panel {
+	height: 100px;
+	display: inline-block;
+	background-color: lightgrey;
+}
+
+.score, .wins, #userScore {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.row {
+	padding-top: 10px;
+}
+.wins, #userScore {
+	text-align: center;
+}
+
+.score, #randomNumber {
+	font-size: 30px;
+	text-align: center;
+    vertical-align: middle;
+}

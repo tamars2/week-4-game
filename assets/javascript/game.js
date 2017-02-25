@@ -55,7 +55,7 @@ else if (userNumber >= randomNumber + 1) {
 		setupGame();
 	}
 };
-
+ 
 // function checkLoss () {
 // 	if (userNumber >= randomNumber + 1) {
 // 		losses = losses +1;
